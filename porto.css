@@ -122,18 +122,15 @@ span{
 
 
 .container {
-    width: 80%;
-    margin: 0 auto;
     padding: 130px;
-    text-align: center;
 }
 
 .skills {
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
     margin-top: 40px;
+    display: flex;
+    margin-left: 3.5%;
 }
 .skill {
     background-color: rgb(179, 10, 10);
@@ -172,4 +169,22 @@ span{
 
 .serti:hover{
     box-shadow: none;
+}
+
+
+footer{
+    padding: 5px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+a:hover{
+    color: red;
 }
